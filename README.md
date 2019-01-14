@@ -1,3 +1,3 @@
 # Vadim Galagan
 Home work
-[домашня](https://inmaters.github.io/my_homework/ "")
+[домашня](http://inmaters.layoutcrown.github.io/crown/ "")
