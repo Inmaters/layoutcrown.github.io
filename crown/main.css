@@ -1,0 +1,257 @@
+html {
+    box-sizing : border-box;
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: url(fonts/RBNo2Light.otf);
+}
+@font-face {
+    font-family: sans-serif;
+    src: url(fonts/TrajanPro-Regular.ttf);
+}
+
+* {	margin: 0;
+	padding: 0;
+}
+
+body { background-image: url(image/Sloy1.png);
+}
+ 
+header {
+  background-image: url(image/cloudlight.png), 
+  url(image/cloud.png);
+  top: 0;
+  width: 100%;
+  height: 320px;
+}
+
+.head {
+	display: flex;
+    flex-direction: row;
+	width: 64%;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+.head a:hover{
+	position: relative;
+	transition-property: background-color, color;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+	background-color:white;
+	color:black;
+	box-shadow: 2px 2px 2px  2px black;
+}
+.crown {
+	margin: 0 50px;
+}
+.point {
+	margin: 0 20px;
+}
+.el {
+	margin-top: 70px;
+} 
+.el a {
+	font-family: RBNo2;
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #0A0A0A;
+}
+.simply {
+	display: flex;
+    flex-direction: row;
+	width: 64%;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	font-size: 54px;
+	text-transform: uppercase;
+	color: #0A0A0A;
+	font-family: TrajanPro;
+}
+.simply div {
+	margin: 0 5px;
+}
+
+.pointer {
+	display: block;
+	text-align: center;
+}
+.liner {
+	display: flex;
+	width: 64%;
+	margin: 20px  auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.creative p {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #0A0A0A;
+	font-family: TrajanPro;
+	letter-spacing: 12px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.line1, .line2{
+	height: 0;
+	border: 1px solid #808080;
+	width: 320px;
+}
+
+.text p {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #7D7E7F;
+	font-family: Calibri;
+	margin-top: 70px;
+	text-align: center;
+	width: 760px;
+}
+.threecol {
+	width: 960px;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: row;
+	justify-content: space-between;
+	/*align-items: center;*/
+}
+.col {
+	width: 300px;
+	
+}
+.f1, .f2, .f3{
+	text-align: center;
+}
+
+.line {	
+	height: 0;
+	border: 1px solid #808080;
+	width: 300px;
+	margin-top: 5px;
+}
+.col h5 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #38393A;
+	font-family: Calibri;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.coltext {
+	font-size: 14px;
+	color: #38393A;
+	font-family: Calibri;
+	height: 260px;
+}
+.coltext2 {
+	font-size: 12px;
+	color: #38393A;
+	font-family: Cambria;
+	text-align: center;
+}
+.scob {
+	width: 64%;
+	display: flex;
+	margin: 60px  auto;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.scob p{
+	display: block;
+	text-align: center;
+	margin: 0 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #58595A;
+	font-family: TrajanPro;
+	line-height: 2em;
+}
+.twotext {
+	width: 960px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: start;
+	margin: 0 auto;
+	
+}
+.ttone h5 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #38393A;
+	font-family: Calibri;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.ttone p {
+	width: 650px;
+	font-size: 14px;
+	color: #38393A;
+	font-family: Calibri;
+}
+.tttwo h5 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #A3A5A6;
+	font-family: Calibri;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	
+}
+.tttwo {
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items: flex-start;
+}
+.zag1 {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+.zag1 p{
+	font-size: 14px;
+	color: #808181;
+	font-family: Calibri;
+	margin-left: 5px;
+}
+.zag {
+	margin-left: 25px;
+}
+
+footer {
+	width: 960px;
+	border-top: 1px solid #C5C6C7;
+	display: flex;
+	margin: 60px auto;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer p {
+	font-size: 12px;
+	color: #808181;
+	font-family: Calibri;
+}
+.end {
+	display: flex;
+	flex-direction: row;
+	width: 250px;
+	justify-content: space-between;
+	margin-top: 30px;
+	}
+
+.info {
+	margin-top: 45px;
+}
+.end a:hover {
+	position: relative;
+	transition-property: background-color, color;
+	background-color:black;
+}
